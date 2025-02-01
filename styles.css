@@ -6,14 +6,17 @@
 
 .holder{
     display: grid;
-    grid-template-columns: repeat(200px 2);
-    grid-template-rows: repeat(200px 2);
+    height: 200px;
+    grid-template-columns: repeat(2, 2fr);
+    grid-auto-rows: minmax(40px, auto);
     column-gap: 10px;
     row-gap: 10px;
 }
 
 .item-1{
     background-color: red;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .item-2{
@@ -27,4 +30,3 @@
 .item-4{
     background-color: yellow;
 }
-/* Your CSS Code here. */

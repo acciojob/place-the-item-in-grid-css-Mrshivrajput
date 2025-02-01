@@ -8,7 +8,8 @@
     display: grid;
     height: 200px;
     grid-template-columns: 100px 100px;
-    grid-auto-rows: minmax(40px, auto);
+    grid-template-rows: 100px 100px;
+    /* grid-auto-rows: minmax(40px, auto); */
     column-gap: 10px;
     row-gap: 10px;
 }
